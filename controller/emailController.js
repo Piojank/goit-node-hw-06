@@ -1,5 +1,5 @@
 const userService = require("../service/usersService");
-const sendEmail = require("../helpers/mailer");
+const sendEmail = require("../middlewares/mailer");
 
 const verifyEmail = async (req, res, next) => {
     try {
